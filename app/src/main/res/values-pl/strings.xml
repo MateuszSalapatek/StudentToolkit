@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Niezbędnik Ucznia</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="day_plan">Plan Dnia</string>
+    <string name="tuesday_short">WTO</string>
+    <string name="monday_short">PON</string>
+    <string name="wednesday_short">ŚR</string>
+    <string name="thursday_short">CZW</string>
+    <string name="friday_short">PT</string>
+
+    <!--subjects-->
+    <string name="subjectBiology">Biologia</string>
+    <string name="subjectArt">Plastyka</string>
+    <string name="subjectChemistry">Chemia</string>
+    <string name="subjectEnglish">J.angielski</string>
+    <string name="subjectFrench">J.fransucki</string>
+    <string name="subjectGeography">Geografia</string>
+    <string name="subjectGerman">J.niemiecki</string>
+    <string name="subjectHistory">Historia</string>
+    <string name="subjectIT">Informatyka</string>
+    <string name="subjectItalian">J.Włoski</string>
+    <string name="subjectMathematics">Matematyka</string>
+    <string name="subjectMusic">Muzyka</string>
+    <string name="subjectPE">Wychowanie fizyczne</string>
+    <string name="subjectPhysics">Fizyka</string>
+    <string name="subjectReligious">Religia</string>
+    <string name="subjectScience">Przyroda</string>
+    <!---->
+</resources>

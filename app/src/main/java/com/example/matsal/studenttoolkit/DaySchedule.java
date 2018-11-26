@@ -1,5 +1,6 @@
 package com.example.matsal.studenttoolkit;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -67,8 +68,9 @@ public class DaySchedule extends AppCompatActivity {
         Log.d("function","DaySchedule.onOptionsItemSelected");
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.global_settings) {
+            Intent intent = new Intent(DaySchedule.this, SettingsActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
